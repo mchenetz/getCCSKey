@@ -8,7 +8,7 @@ host = "[IP Address]"
 auth = "Basic [Authorization key]"
 
 # Code
-url = "https://" + host + ":24573/cloudcenter-ccm-backend/api/v1/user/keys"
+url = "https://" + host + "/cloudcenter-ccm-backend/api/v1/user/keys"
 
 headers = {
     'Accept': "application/json",
